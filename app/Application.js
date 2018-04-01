@@ -8,6 +8,10 @@ Ext.define('FSBPrototype.Application', {
 
     name: 'FSBPrototype',
 
+    stores: [
+        'NavigationTree'
+    ],
+    
     quickTips: false,
     platformConfig: {
         desktop: {
